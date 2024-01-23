@@ -153,21 +153,21 @@
   }
 
   .wiki h1 {
-    transform: translateX(100%);
-    animation: marquee 15s linear infinite;
+    // transform: translateX(100%);
+    // animation: marquee 15s linear infinite;
   }
-  @keyframes marquee {
-    0% {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    100% {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-  }
+  // @keyframes marquee {
+  //   0% {
+  //     -moz-transform: translateX(100%);
+  //     -webkit-transform: translateX(100%);
+  //     transform: translateX(100%);
+  //   }
+  //   100% {
+  //     -moz-transform: translateX(-100%);
+  //     -webkit-transform: translateX(-100%);
+  //     transform: translateX(-100%);
+  //   }
+  // }
 
   .grw-recent-changes {
     margin: -15px;
