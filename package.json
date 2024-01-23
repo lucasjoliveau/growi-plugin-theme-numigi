@@ -52,7 +52,7 @@
     ],
     "themes": [
       {
-        "name": "welcome-to-fumiya-room",
+        "name": "numigi",
         "manifestKey": "src/styles/style.scss",
         "schemeType": "light",
         "bg": "#00FFFF",
