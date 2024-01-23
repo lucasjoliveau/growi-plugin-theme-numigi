@@ -19,7 +19,7 @@
   // Background colors
   --bgcolor-global: hsl(var(--bgcolor-global-hs),var(--bgcolor-global-l));
   --bgcolor-global-hs: 225,13%;
-  --bgcolor-global-l: 100%;
+  --bgcolor-global-l: 80%;
   --bgcolor-inline-code: #1F2128; //optional
   --bgcolor-card: #F5BE5C;
   --bgcolor-blinked-section: #{hsl.alpha(var(--primary), 90%)};
@@ -27,8 +27,8 @@
 
   // Font colors
   --color-global: hsl(var(--color-global-hs),var(--color-global-l));
-  --color-global-hs: 300,100%;
-  --color-global-l: 25%;
+  --color-global-hs: 227,13%;
+  --color-global-l: 14%;
   --color-reversal: #00F;
   // --color-header: #2b2b2b;
   --color-link: hsl(var(--color-link-hs),var(--color-link-l));
@@ -69,8 +69,8 @@
   --border-image-navbar: #555555;
 
   // Logo colors
-  --bgcolor-logo: #F5BE5C;
-  --fillcolor-logo-mark: #F5BE5C;
+  --bgcolor-logo: #1F2128;
+  --fillcolor-logo-mark: #1F2128;
 
   // Sidebar
   --bgcolor-sidebar: var(--primary);
@@ -138,15 +138,17 @@
 
 
   // breaking!!
-  .navbar > div {
-    margin: -10px !important;
-  }
+  // .navbar > div {
+  //   margin: -10px !important;
+  // }
   .navbar > ul > li {
     margin-right: -20px !important;
   }
   .grw-subnav {
-    padding: 0;
+    padding: 0 1.5rem;
     margin: 30px;
+    background: #FFF;
+    border-radius: 7px;
   }
   #main {
     margin: -30px;
@@ -194,4 +196,14 @@
       opacity: 1;
     }
   }
+}
+
+//Navbar
+.navbar-brand {
+  background: #F5BE5C;
+  margin-right: 20px !important;
+}
+
+.grw-navbar .grw-app-title {
+  color: #EEEFF2;
 }
