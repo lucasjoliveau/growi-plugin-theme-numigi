@@ -59,24 +59,25 @@
   // --bgcolor-table-hover: #; // optional
 
   // Navbar
-  --bgcolor-navbar:linear-gradient(to right,#e60000 14%,#f39800 28%,#fff100 42%,#009944 56%,#0068b7 70%,#1d2088 87%,#920783 100%);
+  // --bgcolor-navbar:linear-gradient(to right,#e60000 14%,#f39800 28%,#fff100 42%,#009944 56%,#0068b7 70%,#1d2088 87%,#920783 100%);
+  --bgcolor-navbar: #1F2128;
   --bgcolor-navbar-hs: 0,100%;
-  --bgcolor-navbar-l: 45%;
+  --bgcolor-navbar-l: 50%;
   --bgcolor-search-top-dropdown: hsl(var(--bgcolor-search-top-dropdown-hs),var(--bgcolor-search-top-dropdown-l));
   --bgcolor-search-top-dropdown-hs: 0,0%;
   --bgcolor-search-top-dropdown-l: 100%;
   --border-image-navbar: #555555;
 
   // Logo colors
-  --bgcolor-logo: #FFFF00;
-  --fillcolor-logo-mark: #FFFF00;
+  --bgcolor-logo: #F5BE5C;
+  --fillcolor-logo-mark: #F5BE5C;
 
   // Sidebar
   --bgcolor-sidebar: var(--primary);
   --bgcolor-sidebar-hs: var(--primary-hs);
   --bgcolor-sidebar-l: var(--primary-l);
   --bgcolor-sidebar-nav-item-active: #0000FF; // optional
-  --text-shadow-sidebar-nav-item-active: 0px 0px 10px #3e4042; // optional
+  // --text-shadow-sidebar-nav-item-active: 0px 0px 10px #3e4042; // optional
 
   // Sidebar resize button
   --color-resize-button: #607000;
@@ -113,7 +114,7 @@
   // --bgcolor-tags: #; //optional
 
   // Icon colors
-  --color-editor-icons: #000;
+  --color-editor-icons: #1F2128;
 
   // Border colors
   --border-color-theme: #000;
