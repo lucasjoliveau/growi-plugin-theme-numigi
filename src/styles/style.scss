@@ -18,9 +18,9 @@
 
   // Background colors
   --bgcolor-global: hsl(var(--bgcolor-global-hs),var(--bgcolor-global-l));
-  --bgcolor-global-hs: 180,100%;
+  --bgcolor-global-hs: 225,13%;
   --bgcolor-global-l: 50%;
-  --bgcolor-inline-code: #FF00FF; //optional
+  --bgcolor-inline-code: #1F2128; //optional
   --bgcolor-card: #00FF00;
   --bgcolor-blinked-section: #{hsl.alpha(var(--primary), 90%)};
   //--bgcolor-keyword-highlighted: #{$grw-marker-yellow};
