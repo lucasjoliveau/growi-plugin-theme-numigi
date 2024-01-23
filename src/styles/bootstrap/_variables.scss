@@ -69,7 +69,7 @@ $container-max-widths: (
 
 //## Font, line-height, and color for body text, headings, and more.
 // $font-family-sans-serif: Lato, -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-$font-family-sans-serif: "Manrope", sans-serif;
+$font-family-sans-serif: "Manrope", sans-serif !important;
 $font-family-serif: Georgia, 'Times New Roman', Times, serif;
 $font-family-monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 $font-family-base: $font-family-sans-serif;

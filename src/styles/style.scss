@@ -7,8 +7,8 @@
 //
 :root[data-theme='light'] {
   --primary: hsl(var(--primary-hs),var(--primary-l)) !important;
-  --primary-hs: 120,100%;
-  --primary-l: 50%;
+  --primary-hs: 38,88%;
+  --primary-l: 66%;
   --secondary: hsl(var(--secondary-hs),var(--secondary-l)) !important;
   --secondary-hs: 208,7%;
   --secondary-l: 46%;
@@ -19,7 +19,7 @@
   // Background colors
   --bgcolor-global: hsl(var(--bgcolor-global-hs),var(--bgcolor-global-l));
   --bgcolor-global-hs: 225,13%;
-  --bgcolor-global-l: 95%;
+  --bgcolor-global-l: 97%;
   --bgcolor-inline-code: #1F2128; //optional
   --bgcolor-card: #F5BE5C;
   --bgcolor-blinked-section: #{hsl.alpha(var(--primary), 90%)};
@@ -66,7 +66,7 @@
   --bgcolor-search-top-dropdown: hsl(var(--bgcolor-search-top-dropdown-hs),var(--bgcolor-search-top-dropdown-l));
   --bgcolor-search-top-dropdown-hs: 0,0%;
   --bgcolor-search-top-dropdown-l: 100%;
-  --border-image-navbar: #555555;
+  --border-image-navbar: #F5BE5C;
 
   // Logo colors
   --bgcolor-logo: #1F2128;
@@ -148,8 +148,10 @@
     padding: 0 1.5rem;
     margin: 30px;
     background: #FFF;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(21px);
     border-radius: 7px;
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #D1D3DB;
   }
   #main {
     margin: -30px;
@@ -205,6 +207,7 @@
   margin-right: 20px !important;
 }
 
-.grw-navbar .grw-app-title {
+#grw-navbar .grw-app-title {
   color: #EEEFF2 !important;
+  margin-left: 20px;
 }
