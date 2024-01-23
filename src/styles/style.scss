@@ -3,6 +3,10 @@
 @use './theme/mixins/page-editor-mode-manager';
 @use './theme/hsl-functions' as hsl;
 
+* {
+  color: rgb(220, 121, 51) !important;
+}
+
 //== Light Mode
 //
 :root[data-theme='light'] {
