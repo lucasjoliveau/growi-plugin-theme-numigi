@@ -1,10 +1,6 @@
 {
-  "background-img.png": {
-    "file": "assets/background-img.eba0487a.png",
-    "src": "background-img.png"
-  },
   "src/styles/style.scss": {
-    "file": "assets/style.4d0bf13c.css",
+    "file": "assets/style.e7931db2.css",
     "src": "src/styles/style.scss",
     "isEntry": true
   }
