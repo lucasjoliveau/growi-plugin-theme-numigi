@@ -211,12 +211,17 @@
   }
 }
 
+// The sidebar of the bottom: settings, trash and help
 .grw-sidebar-nav-secondary-container {
   .btn {
-    height: 64px;
-    display: inline-flex !important;
-    justify-content: center;
-    align-items: center;
+    // height: 64px;
+    // display: inline-flex !important;
+    // justify-content: center;
+    // align-items: center;
+
+    i {
+      padding: 7px;
+    }
   }
 }
 
