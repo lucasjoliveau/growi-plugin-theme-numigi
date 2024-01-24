@@ -235,3 +235,18 @@
   color: #EEEFF2 !important;
   margin-left: 20px;
 }
+
+// Contextual navigation
+.grw-sidebar {
+
+  div.grw-contextual-navigation>div {
+  background: #EFE5D4;
+  }
+
+  // The tool to resize the contextual navigation panel
+  .grw-navigation-draggable {
+    .grw-navigation-draggable-hitarea-child {
+      background: #F5BE5C;
+    }
+  }
+}
