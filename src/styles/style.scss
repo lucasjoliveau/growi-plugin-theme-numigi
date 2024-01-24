@@ -239,14 +239,19 @@
 // Contextual navigation
 .grw-sidebar {
 
+  #grw-sidebar-contents-wrapper {
+    border-right: 3px solid #F5BE5C;
+  }
+
   div.grw-contextual-navigation>div {
-  background: #EFE5D4;
+  background: #EFE5D4 !important;
   }
 
   // The tool to resize the contextual navigation panel
   .grw-navigation-draggable {
     .grw-navigation-draggable-hitarea-child {
-      background: #F5BE5C;
+      background: #F5BE5C !important;
+      width: 4px !important;
     }
   }
 }
