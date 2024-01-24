@@ -284,3 +284,9 @@
     }
   }
 }
+
+
+//Login page
+:root[data-theme=light] .nologin {
+  background: red !important;
+}
