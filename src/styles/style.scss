@@ -186,6 +186,10 @@
     background:#0091EA;
     border-radius: 7px;
     // animation: flash 0.3s linear infinite;
+
+    &::after {
+      display: none !important;
+    }
   }
 
   @keyframes flash {
