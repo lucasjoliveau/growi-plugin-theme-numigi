@@ -211,6 +211,15 @@
   }
 }
 
+.grw-sidebar-nav-secondary-container {
+  .btn {
+    height: 64px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 //Navbar
 .navbar-brand {
   background: #F5BE5C;
