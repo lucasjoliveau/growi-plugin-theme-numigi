@@ -39,8 +39,8 @@
   --color-link-wiki-hs: var(--color-link-hs);
   --color-link-wiki-l: var(--color-link-l);
   --color-link-wiki-hover: #{hsl.lighten(var(--color-link), 20%)};
-  --color-link-nabvar: #FFFF00;
-  --color-inline-code: #FFFF00; // optional
+  --color-link-nabvar: #F5BE5C;
+  --color-inline-code: #F5BE5C; // optional
 
   // List Group colors
   // --color-list: var(--color-global); // optional
@@ -234,6 +234,10 @@
 #grw-navbar .grw-app-title {
   color: #EEEFF2 !important;
   margin-left: 20px;
+}
+
+#grw-navbar {
+  border-color: #F5BE5C;
 }
 
 // Contextual navigation
