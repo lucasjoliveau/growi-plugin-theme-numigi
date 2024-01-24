@@ -288,5 +288,6 @@
 
 //Login page
 :root[data-theme=light] .nologin {
-  background: red !important;
+  // background: red !important;
+  background: url("../../background-img.png") !important;
 }
