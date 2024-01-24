@@ -290,4 +290,16 @@
 :root[data-theme=light] .nologin {
   // background: red !important;
   background: url("https://raw.githubusercontent.com/lucasjoliveau/growi-plugin-theme-numigi/main/background-img.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  .nologin-dialog {
+    width: 400px;
+    padding: 1.5rem;
+
+    .link-switch {
+      color: #F5BE5C;
+    }
+  }
 }
