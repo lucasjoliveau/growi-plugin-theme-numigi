@@ -297,11 +297,17 @@
   button#login {
     background: #F5BE5C !important;
     border-radius: 100px !important;
-    padding: 0.5rem 6rem;
+    padding: 1rem 6rem;
     width: 100%;
 
+    .eff {
+      background: #EEEFF2 !important;
+      top: -55px !important;
+    }
+
     .btn-label {
-      background: #F5BE5C !important;
+      background: transparent !important;
+      padding: 0 !important;
 
       i {
         color: #1F2128 !important;
