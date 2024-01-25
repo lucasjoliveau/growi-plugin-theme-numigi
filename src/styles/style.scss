@@ -294,6 +294,17 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 
+  .input-group {
+    input {
+      padding: 1.5rem;
+      background: #353945 !important;
+    }
+
+    span.input-group-text {
+      background: #353945 !important;
+    }
+  }
+
   button#login {
     background: #F5BE5C !important;
     border-radius: 100px !important;
@@ -302,7 +313,7 @@
 
     .eff {
       background: #EEEFF2 !important;
-      top: -55px !important;
+      // top: -55px !important;
     }
 
     .btn-label {
@@ -334,6 +345,7 @@
     width: 400px;
     padding: 1.5rem;
     background: #1F2128 !important;
+    box-shadow: 0px 24px 45px 0px rgba(36, 36, 35, 0.23);
 
     .link-switch {
       color: #F5BE5C !important;
