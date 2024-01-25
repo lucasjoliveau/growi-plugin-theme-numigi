@@ -295,12 +295,15 @@
   background-repeat: no-repeat !important;
 
   .nologin-header {
-    background: #F5BE5C;
+    background: #F5BE5C !important;
+    width: 400px;
+    padding: 1.5rem;
   }
 
   .nologin-dialog {
     width: 400px;
     padding: 1.5rem;
+    background: #1F2128 !important;
 
     .link-switch {
       color: #F5BE5C;
