@@ -294,10 +294,34 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 
+  .button#login {
+    background: #F5BE5C !important;
+    border-radius: 100px !important;
+    padding: 0.5rem 6rem;
+    width: 100%;
+
+    .btn-label {
+      background: #F5BE5C !important;
+
+      i {
+        color: #1F2128 !important;
+      }
+    }
+
+    .btn-label-text {
+      color: #1F2128 !important;
+    }
+  }
+
   .nologin-header {
     background: #F5BE5C !important;
     width: 400px;
-    padding: 1.5rem;
+    // padding: 1.5rem;
+    padding-bottom: 30px;
+
+    h1 {
+      display: none;
+    }
   }
 
   .nologin-dialog {
@@ -306,7 +330,7 @@
     background: #1F2128 !important;
 
     .link-switch {
-      color: #F5BE5C;
+      color: #F5BE5C !important;
     }
   }
 }
