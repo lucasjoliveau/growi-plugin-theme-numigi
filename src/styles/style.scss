@@ -29,12 +29,12 @@
   --color-global: hsl(var(--color-global-hs),var(--color-global-l));
   --color-global-hs: 227,13%;
   --color-global-l: 14%;
-  --color-reversal: #00F;
+  --color-reversal: #1F2128;
   // --color-header: #2b2b2b;
   --color-link: hsl(var(--color-link-hs),var(--color-link-l));
   --color-link-hs: 227,13%;
   --color-link-l: 50%;
-  --color-link-hover:#2222FF;
+  --color-link-hover:#1F2128;
   --color-link-wiki: var(--color-link);
   --color-link-wiki-hs: var(--color-link-hs);
   --color-link-wiki-l: var(--color-link-l);
@@ -271,7 +271,7 @@
 
       .grw-pagetree-triangle-btn {
         svg {
-          fill: #1F2128;
+          fill: #1F2128 !important;
         }
       }
     }
@@ -362,4 +362,9 @@
 // Settings sidebar list group
 .list-group admin-navigation {
 
+}
+
+// Recent change panel - sidebar
+.grw-recent-changes {
+  
 }
