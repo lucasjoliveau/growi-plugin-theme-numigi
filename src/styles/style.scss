@@ -296,7 +296,7 @@
 
   .input-group {
     input {
-      padding: 1.5rem;
+      padding: 1.5rem 1rem 1.5rem 0;
       background: #353945 !important;
     }
 
@@ -311,9 +311,13 @@
     padding: 1rem 6rem;
     width: 100%;
 
+    &:hover .eff {
+      top: 0 !important;
+    }
+
     .eff {
       background: #EEEFF2 !important;
-      // top: -55px !important;
+      top: -55px !important;
     }
 
     .btn-label {
