@@ -39,16 +39,16 @@
   --color-link-wiki-hs: var(--color-link-hs);
   --color-link-wiki-l: var(--color-link-l);
   --color-link-wiki-hover: #{hsl.lighten(var(--color-link), 20%)};
-  --color-link-nabvar: #F5BE5C;
+  --color-link-nabvar: #EEEFF2;
   --color-inline-code: #F5BE5C; // optional
 
   // List Group colors
-  // --color-list: var(--color-global); // optional
-  // --bgcolor-list: var(--bgcolor-global); // optional
-  // --color-list-hover: var(--color-global); // optional
-  // --bgcolor-list-hover: #{hsl.darken(var(--bgcolor-global),3%)};// optional
-  // --color-list-active: white ; // optional
-  // --bgcolor-list-active: #{hsl.lighten(var(--bgcolor-global),3%)}; // optional
+  --color-list: #1F2128; // optional
+  --bgcolor-list: #EFE5D4; // optional
+  --color-list-hover: var(--color-global); // optional
+  --bgcolor-list-hover: #F1D7AA;// optional
+  --color-list-active: var(--color-global) ; // optional
+  --bgcolor-list-active: #F5BE5C; //optional
   // --color-page-list-group-item-meta: #{$gray-500}; // optional
 
   // Table colors
@@ -95,8 +95,8 @@
 --bgcolor-sidebar-context-hs: var(--primary-hs);
 --bgcolor-sidebar-context-l: calc(var(--primary-l) + 77%);
 
-  // Sidebar list group
-  --bgcolor-sidebar-list-group: #AAAAAA; // optional
+  // Sidebar list group (settings)
+  --bgcolor-sidebar-list-group: #EFE5D4; // optional
 
   // Subnavigation
   --bgcolor-subnav: hsl(var(--bgcolor-subnav-hs),var(--bgcolor-subnav-l));
@@ -121,7 +121,8 @@
   --bordercolor-inline-code: #000; // optional
 
   // Dropdown colors
-  --bgcolor-dropdown-link-active: #FFFF00;
+  --bgcolor-dropdown-link-active: #F5BE5C;
+  --color-dropdown-link-active: #1F2128;
 
   // admin theme box
   --color-theme-color-box: #{hsl.lighten(var(--primary), 20%)};
@@ -355,4 +356,10 @@
       color: #F5BE5C !important;
     }
   }
+}
+
+
+// Settings sidebar list group
+.list-group admin-navigation {
+
 }

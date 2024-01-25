@@ -12,7 +12,7 @@ $secondary: #6c757d !default;
 $info: #009fbb !default;
 $success: #00bb83 !default;
 $warning: #ffa32b !default;
-$danger: #ff0a54 !default;
+$danger: rgb(228, 14, 78) !default;
 $light: #e4e7ea !default;
 $dark: #343a40 !default;
 $gray-50: lighten($light, 7%) !default;
@@ -29,7 +29,7 @@ $gray-900: darken($dark, 5%) !default;
 $grays: (
   '50': $gray-50,
 ) !default;
-$red: #ff0a54 !default;
+$red: rgb(228, 14, 78) !default;
 
 // Options
 //
