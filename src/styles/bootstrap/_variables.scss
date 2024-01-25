@@ -74,7 +74,7 @@ $font-family-serif: Georgia, 'Times New Roman', Times, serif;
 $font-family-monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 $font-family-base: $font-family-sans-serif;
 
-* {
+*:not(i) {
   font-family: "Manrope", sans-serif !important;
 }
 
