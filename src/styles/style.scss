@@ -328,22 +328,23 @@
     &:hover .eff {
       top: 0 !important;
     }
+    
+
+    .eff {
+      background: #EEEFF2 !important;
+      top: -55px !important;
+    }
+
+    .btn-label {
+      background: transparent !important;
+      padding: 0 !important;
+
+      i {
+        color: #1F2128 !important;
+      }
+    }
   }
 }
-
-//     .eff {
-//       background: #EEEFF2 !important;
-//       top: -55px !important;
-//     }
-
-//     .btn-label {
-//       background: transparent !important;
-//       padding: 0 !important;
-
-//       i {
-//         color: #1F2128 !important;
-//       }
-//     }
 
 //     .btn-label-text {
 //       color: #1F2128 !important;
