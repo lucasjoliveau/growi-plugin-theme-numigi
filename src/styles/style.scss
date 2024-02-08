@@ -203,24 +203,23 @@
       display: none !important;
     }
   }
-}
 
-//   .grw-sidebar-nav-primary-container, .grw-sidebar-nav-secondary-container {
-//     .btn {
-//         border-radius: 7px;
-//         // margin: 7px;
-//         clip-path: inset(5px round 6px);
+  .grw-sidebar-nav-primary-container, .grw-sidebar-nav-secondary-container {
+    .btn {
+        border-radius: 7px;
+        // margin: 7px;
+        clip-path: inset(5px round 6px);
 
-//       i {
-//         // font-size: 1.5rem;
-//       }
-//     }
+      i {
+        // font-size: 1.5rem;
+      }
+    }
 
-//     &:hover {
+    &:hover {
   
-//     }
-//   }
-// }
+    }
+  }
+}
 
 // // The sidebar of the bottom: settings, trash and help
 // .grw-sidebar-nav-secondary-container {
