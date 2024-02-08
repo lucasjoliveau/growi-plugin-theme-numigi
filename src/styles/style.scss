@@ -343,24 +343,23 @@
         color: #1F2128 !important;
       }
     }
+
+    .btn-label-text {
+      color: #1F2128 !important;
+    }
+  }
+
+  .nologin-header {
+    background: #F5BE5C !important;
+    width: 400px;
+    // padding: 1.5rem;
+    padding-bottom: 30px !important;
+
+    h1 {
+      display: none;
+    }
   }
 }
-
-//     .btn-label-text {
-//       color: #1F2128 !important;
-//     }
-//   }
-
-//   .nologin-header {
-//     background: #F5BE5C !important;
-//     width: 400px;
-//     // padding: 1.5rem;
-//     padding-bottom: 30px !important;
-
-//     h1 {
-//       display: none;
-//     }
-//   }
 
 //   .nologin-dialog {
 //     width: 400px;
