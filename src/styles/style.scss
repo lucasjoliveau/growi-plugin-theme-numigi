@@ -126,15 +126,15 @@
 
   // admin theme box
   --color-theme-color-box: #{hsl.lighten(var(--primary), 20%)};
+
+
+  // Button
+  .btn-group.grw-page-editor-mode-manager {
+    .btn.btn-outline-primary {
+      @include page-editor-mode-manager.btn-page-editor-mode-manager(var(--primary), #{hsl.lighten(var(--primary), 65%)}, #{hsl.lighten(var(--primary), 70%)});
+    }
+  }
 }
-
-//   // Button
-//   .btn-group.grw-page-editor-mode-manager {
-//     .btn.btn-outline-primary {
-//       @include page-editor-mode-manager.btn-page-editor-mode-manager(var(--primary), #{hsl.lighten(var(--primary), 65%)}, #{hsl.lighten(var(--primary), 70%)});
-//     }
-//   }
-
 
 
 
