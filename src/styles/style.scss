@@ -359,19 +359,18 @@
       display: none;
     }
   }
+
+  .nologin-dialog {
+    width: 400px;
+    padding: 1.5rem;
+    background: #1F2128 !important;
+    box-shadow: 0px 24px 45px 0px rgba(36, 36, 35, 0.23);
+
+    .link-switch {
+      color: #F5BE5C !important;
+    }
+  }
 }
-
-//   .nologin-dialog {
-//     width: 400px;
-//     padding: 1.5rem;
-//     background: #1F2128 !important;
-//     box-shadow: 0px 24px 45px 0px rgba(36, 36, 35, 0.23);
-
-//     .link-switch {
-//       color: #F5BE5C !important;
-//     }
-//   }
-// }
 
 
 // // Settings sidebar list group
