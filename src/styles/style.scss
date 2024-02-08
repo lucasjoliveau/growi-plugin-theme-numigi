@@ -299,24 +299,25 @@
 }
 
 
-// //Login page
-// :root[data-theme=light] .nologin {
-//   // background: red !important;
-//   background: url("https://raw.githubusercontent.com/lucasjoliveau/growi-plugin-theme-numigi/main/background-img.png") !important;
-//   background-size: cover !important;
-//   background-position: center !important;
-//   background-repeat: no-repeat !important;
+//Login page
+:root[data-theme=light] .nologin {
+  // background: red !important;
+  background: url("https://raw.githubusercontent.com/lucasjoliveau/growi-plugin-theme-numigi/main/background-img.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 
-//   .input-group {
-//     input {
-//       padding: 1.5rem 1rem 1.5rem 0;
-//       background: #353945 !important;
-//     }
+  .input-group {
+    input {
+      padding: 1.5rem 1rem 1.5rem 0;
+      background: #353945 !important;
+    }
 
-//     span.input-group-text {
-//       background: #353945 !important;
-//     }
-//   }
+    span.input-group-text {
+      background: #353945 !important;
+    }
+  }
+}
 
 //   button#login {
 //     background: #F5BE5C !important;
