@@ -317,17 +317,19 @@
       background: #353945 !important;
     }
   }
+
+
+  button#login {
+    background: #F5BE5C !important;
+    border-radius: 100px !important;
+    padding: 1rem 6rem;
+    width: 100%;
+
+    &:hover .eff {
+      top: 0 !important;
+    }
+  }
 }
-
-//   button#login {
-//     background: #F5BE5C !important;
-//     border-radius: 100px !important;
-//     padding: 1rem 6rem;
-//     width: 100%;
-
-//     &:hover .eff {
-//       top: 0 !important;
-//     }
 
 //     .eff {
 //       background: #EEEFF2 !important;
