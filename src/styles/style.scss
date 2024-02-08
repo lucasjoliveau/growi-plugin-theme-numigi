@@ -270,24 +270,25 @@
       width: 4px !important;
     }
   }
+
+  .grw-pagetree {
+    .list-group-item.list-group-item-action {
+      margin-bottom: 4px;
+      margin-top: 4px;
+      border-radius: 7px;
+      &:hover {
+        background: #F1D5A4 !important;
+      }
+
+      .grw-pagetree-triangle-btn {
+        svg {
+          fill: #1F2128 !important;
+        }
+      }
+    }
+  }
 }
 }
-
-//   .grw-pagetree {
-//     .list-group-item.list-group-item-action {
-//       margin-bottom: 4px;
-//       margin-top: 4px;
-//       border-radius: 7px;
-//       &:hover {
-//         background: #F1D5A4 !important;
-//       }
-
-//       .grw-pagetree-triangle-btn {
-//         svg {
-//           fill: #1F2128 !important;
-//         }
-//       }
-//     }
 
 //     .list-group-item-action .grw-pagetree-current-page-item {
 //       background: #f5bd5c;
