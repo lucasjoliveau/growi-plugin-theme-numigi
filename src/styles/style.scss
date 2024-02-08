@@ -147,41 +147,44 @@
   //   margin-right: -20px !important;
   // }
 
-  .grw-subnav {
-    padding: 0 1.5rem;
-    // margin: 30px;
-    background: #FFF;
-    backdrop-filter: blur(21px);
-    margin-bottom: 3rem;
-    // border-radius: 7px;
-    // box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.15);
-    // border: 1px solid #D1D3DB;
+  // ISSUE - RETIRE LE MENU EDITION
+  // .grw-subnav {
+  //   padding: 0 1.5rem;
+  //   // margin: 30px;
+  //   background: #FFF;
+  //   backdrop-filter: blur(21px);
+  //   margin-bottom: 3rem;
+  //   // border-radius: 7px;
+  //   // box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.15);
+  //   // border: 1px solid #D1D3DB;
+  // }
+
+  #main {
+    margin: -30px;
   }
+
+  // .wiki h1 {
+    // transform: translateX(100%);
+    // animation: marquee 15s linear infinite;
+  // }
+  // @keyframes marquee {
+  //   0% {
+  //     -moz-transform: translateX(100%);
+  //     -webkit-transform: translateX(100%);
+  //     transform: translateX(100%);
+  //   }
+  //   100% {
+  //     -moz-transform: translateX(-100%);
+  //     -webkit-transform: translateX(-100%);
+  //     transform: translateX(-100%);
+  //   }
+  // }
+
+  .grw-recent-changes {
+    margin: -15px;
+  }
+
 }
-//   #main {
-//     margin: -30px;
-//   }
-
-//   .wiki h1 {
-//     // transform: translateX(100%);
-//     // animation: marquee 15s linear infinite;
-//   }
-//   // @keyframes marquee {
-//   //   0% {
-//   //     -moz-transform: translateX(100%);
-//   //     -webkit-transform: translateX(100%);
-//   //     transform: translateX(100%);
-//   //   }
-//   //   100% {
-//   //     -moz-transform: translateX(-100%);
-//   //     -webkit-transform: translateX(-100%);
-//   //     transform: translateX(-100%);
-//   //   }
-//   // }
-
-//   .grw-recent-changes {
-//     margin: -15px;
-//   }
 
 //   // Button of nav sidebar
 //   .grw-sidebar-nav-primary-container .btn.active {
